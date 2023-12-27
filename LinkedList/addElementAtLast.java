@@ -44,8 +44,8 @@ public class LL {
     }
     public static void main(String args[]){
         LL list = new LL();
-        list.addFirst("World");
-        list.addFirst("Hello");
+        list.addLast("World");
+        list.addLast("Hello");
 
         list.printLL();
        
